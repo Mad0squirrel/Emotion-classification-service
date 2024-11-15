@@ -1,10 +1,11 @@
 # Model Service Api
 
-Example The ML service is a web application that provides an API for interacting with a machine learning model. It allows users to send queries with prediction data and get results back.
+Пример сервиса ML, веб-приложение, предоставляющее API для взаимодействия с моделью машинного обучения. Оно позволяет пользователям отправлять запросы с прогнозируемыми данными и получать результаты обратно.
+
 
 **Startup logic:**
 
-When launched, the application initializes FastAPI, which handles HTTP requests. The app also connects to the machine learning model and loads it into memory for use in making predictions.
+При запуске приложение инициализирует FastAPI, который обрабатывает HTTP-запросы. Приложение также подключается к модели машинного обучения и загружает ее в память для использования при составлении прогнозов.
 
 ```
 .
